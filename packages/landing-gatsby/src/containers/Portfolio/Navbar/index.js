@@ -11,8 +11,8 @@ import Container from 'common/src/components/UI/Container';
 import { DrawerContext } from 'common/src/contexts/DrawerContext';
 import ScrollSpyMenu from 'common/src/components/ScrollSpyMenu';
 
-import LogoImage from 'common/src/assets/image/portfolio/logo.png';
-import LogoImageAlt from 'common/src/assets/image/portfolio/logo-alt.png';
+import LogoImage from 'common/src/assets/image/portfolio/logo-blue.png';
+import LogoImageAlt from 'common/src/assets/image/portfolio/logo-gray.png';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const Data = useStaticQuery(graphql`
@@ -61,7 +61,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               offset={-70}
             />
             <a className="navbar_button" href="#1">
-              <Button {...button} title="LET'S TALK" />
+              <Button {...button} title="HABLEMOS" />
             </a>
             <Drawer
               width="420px"
@@ -77,7 +77,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 offset={-100}
               />
               <a className="navbar_drawer_button" href="#1">
-                <Button {...button} title="LET'S TALK" />
+                <Button {...button} title="HABLEMOS" />
               </a>
             </Drawer>
           </Box>
@@ -107,7 +107,7 @@ Navbar.defaultProps = {
     width: '100%',
   },
   logoStyle: {
-    maxWidth: ['120px', '130px'],
+    maxWidth: ['64px', '80px'],
   },
   button: {
     type: 'button',

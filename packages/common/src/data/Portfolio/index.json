@@ -2,73 +2,40 @@
   "SOCIAL_PROFILES": [
     {
       "icon": "flaticon-facebook-logo",
-      "url": "#"
-    },
-    {
-      "icon": "flaticon-twitter-logo-silhouette",
-      "url": "#"
-    },
-    {
-      "icon": "flaticon-instagram",
-      "url": "#"
-    },
-    {
-      "icon": "flaticon-dribble-logo",
-      "url": "#"
+      "url": "https://www.linkedin.com/in/irene-arn%C3%A1s-le%C3%B3n-87165015b/"
     }
   ],
   "MENU_ITEMS": [
     {
-      "label": "ME",
+      "label": "SOBRE MI",
       "path": "#banner_section",
       "offset": "0"
     },
     {
-      "label": "PROJECT",
+      "label": "CURSOS",
       "path": "#portfolio_section",
       "offset": "0"
     },
     {
-      "label": "AWARDS",
+      "label": "CÓMO AYUDARTE",
       "path": "#awards_section",
-      "offset": "0"
-    },
-    {
-      "label": "WHY ME?",
-      "path": "#process_section",
       "offset": "0"
     }
   ],
   "AWARDS": [
     {
       "awardLogo": "../../assets/image/portfolio/award-1.png",
-      "awardName": "Free Software Advice",
-      "awardDetails": "Top Rated App Development Companies USA",
+      "awardName": "Certificado aptitud pedagógica (CAP)",
+      "awardDetails": "Universidad Alfonso X El Sabio",
       "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
       "awardeeName": "Awardee",
       "date": "The Jury 2018"
     },
     {
-      "awardLogo": "../../assets/image/portfolio/award-2.png",
-      "awardName": "Free Software Advice",
-      "awardDetails": "Top Rated App Development Companies USA",
-      "awardeeLogo": "../../assets/image/portfolio/awardee-2.png",
-      "awardeeName": "Awardee",
-      "date": "The Jury 2018"
-    },
-    {
-      "awardLogo": "../../assets/image/portfolio/award-3.png",
-      "awardName": "Free Software Advice",
-      "awardDetails": "Top Rated App Development Companies USA",
-      "awardeeLogo": "../../assets/image/portfolio/awardee-3.png",
-      "awardeeName": "Awardee",
-      "date": "The Jury 2018"
-    },
-    {
-      "awardLogo": "../../assets/image/portfolio/award-4.png",
-      "awardName": "Free Software Advice",
-      "awardDetails": "Top Rated App Development Companies USA",
-      "awardeeLogo": "../../assets/image/portfolio/awardee-4.png",
+      "awardLogo": "../../assets/image/portfolio/award-1.png",
+      "awardName": "Convenio de Aptitup P",
+      "awardDetails": "Universidad Alfonso X El Sabio",
+      "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
       "awardeeName": "Awardee",
       "date": "The Jury 2018"
     }

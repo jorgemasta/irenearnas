@@ -75,11 +75,11 @@ const AwardsSection = ({
         <Box {...secTitleWrapper}>
           <Heading
             {...secTitle}
-            content="Honorable Recognitions &amp; Awards"
+            content="Cursos &amp; Certificaciones"
           />
           <Text
             {...secDescription}
-            content="Year after year, Blue Label Labs has been recognized as one of the top design and development firms in New York City. It’s nice to feel appreciated!"
+            content="La formación me parece un elemento fundamental para el crecimiento profesional. Con lo cual cada año me gusta continuar aprendiendo y mantiendome al día sobre las últimas noticias, publicaciones y actualiciones en el campo de la psicología. Adaptarse a los nuevos tiempos y formaciones permite adaptarse a los nuevos tiempos permite enriqueserse e técnicas alternativas y nuevas ideas que te hagan crecer como profesional."
           />
         </Box>
 

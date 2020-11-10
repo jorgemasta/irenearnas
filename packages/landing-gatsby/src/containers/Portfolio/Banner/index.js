@@ -17,6 +17,7 @@ const BannerSection = ({
   row,
   contentArea,
   imageArea,
+  image,
   greetingStyle,
   nameStyle,
   designationStyle,
@@ -40,7 +41,7 @@ const BannerSection = ({
       <Container noGutter mobileGutter width="1200px">
         <Box {...row}>
           <Box {...contentArea}>
-            <Heading content="Hola, soy" {...greetingStyle} />
+{/*             <Heading content="Hola, soy" {...greetingStyle} /> */}
             <Heading content="Irene Arnás" {...nameStyle} />
 {/*             <Heading content="Psicóloga clínica" {...designationStyle} /> */}
             <Box {...roleWrapper}>
@@ -49,16 +50,16 @@ const BannerSection = ({
                 style={{ color: '#3444f1' }}
                 size={22}
               />
-              <Heading content="Psicóloga clínica" {...roleStyle} />
+              <Heading content="Psicóloga sanitaria" {...roleStyle} />
             </Box>
             <Text
-              content="The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Lorem Ipsum is simply dummy text of the printing."
+              content="Psiccóloga sanitaria con 12 años de experiencia en intervención en niños y adultos. Sesiones dinámicas y centradas en la persona."
               {...aboutStyle}
             />
-            <SocialProfile items={Data.portfolioJson.SOCIAL_PROFILES} />
+{/*             <SocialProfile items={Data.portfolioJson.SOCIAL_PROFILES} /> */}
           </Box>
           <Box {...imageArea} className="image_area">
-            <Image src={PersonImage} alt="Mat Helme" />
+            <Image src={PersonImage} alt="Mat Helme" {...image}/>
           </Box>
         </Box>
       </Container>
@@ -97,7 +98,9 @@ BannerSection.defaultProps = {
     flexBox: true,
     alignItems: 'flex-end',
     justifyContent: 'flex-end',
-
+  },
+  image : {
+    maxHeight: '80%'
   },
   greetingStyle: {
     as: 'h3',

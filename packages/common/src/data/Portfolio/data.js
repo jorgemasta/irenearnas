@@ -85,13 +85,13 @@ export const MENU_ITEMS = [
 export const AWARDS = [
   {
     awardLogo: AwardImage1,
-    awardName: 'Free Software Advice',
+    awardName: 'Free Software Addddvice',
     awardDetails: 'Top Rated App Development Companies USA',
     awardeeLogo: Awardee1,
     awardeeName: 'Awardee',
     date: 'The Jury 2018',
   },
-  {
+/*   {
     awardLogo: AwardImage2,
     awardName: 'Free Software Advice',
     awardDetails: 'Top Rated App Development Companies USA',
@@ -114,7 +114,7 @@ export const AWARDS = [
     awardeeLogo: Awardee4,
     awardeeName: 'Awardee',
     date: 'The Jury 2018',
-  },
+  }, */
 ];
 
 export const PORTFOLIO_SHOWCASE = [

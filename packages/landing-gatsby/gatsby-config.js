@@ -49,9 +49,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-web-font-loader`,
       options: {
-        fonts: [
+        google: {
+          families: [
+            'Roboto', 'Poppins', 'Lato', 'Opens Sans', 'Raleway', 'Heebo', 'B612', 'DM Sans'
+          ]
+        }
+/*         [
           {
             family: `Roboto`,
             variants: [
@@ -97,7 +102,7 @@ module.exports = {
             family: `DM Sans`,
             variants: [`400`, `400i`, `500`, `500i`, `700`, `700i`],
           },
-        ],
+        ], */
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
