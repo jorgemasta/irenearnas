@@ -147,7 +147,7 @@ AwardsSection.propTypes = {
 
 AwardsSection.defaultProps = {
   secTitleWrapper: {
-    width: ['100%', '100%', '60%', '50%', '50%'],
+    width: ['100%', '100%', '70%', '70%', '70%'],
     mb: '90px',
   },
   secTitle: {
