@@ -70,7 +70,7 @@ ContactSection.propTypes = {
 
 ContactSection.defaultProps = {
   sectionWrapper: {
-    pt: ['70px', '80px', '100px', '110px', '140px'],
+    pt: ['20px', '30px', '50px', '60px', '60px'],
     pb: ['70px', '80px', '100px', '110px', '140px'],
     bg: '#f9f9f9',
   },

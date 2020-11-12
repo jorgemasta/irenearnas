@@ -126,8 +126,8 @@ SkillSection.propTypes = {
 
 SkillSection.defaultProps = {
   sectionWrapper: {
-    pt: ['60px', '80px', '100px', '110px', '140px'],
-    pb: ['150px', '160px', '160px', '180px', '210px'],
+    pt: ['20px', '30px', '50px', '60px', '60px'],
+    pb: ['20px', '30px', '50px', '60px', '60px'],
     bg: '#f9f9f9',
   },
   secTitleWrapper: {
