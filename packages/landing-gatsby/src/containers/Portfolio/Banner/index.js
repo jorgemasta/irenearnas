@@ -6,9 +6,11 @@ import Box from 'common/src/components/Box';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
 import Image from 'common/src/components/Image';
+import Button from 'common/src/components/Button';
 import Container from 'common/src/components/UI/Container';
 import SocialProfile from '../SocialProfile';
 import BannerWrapper from './banner.style';
+import { ButtonWrapper } from '../../Portfolio/portfolio.style';
 
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
 import PersonImage from 'common/src/assets/image/portfolio/irene.png';
@@ -20,6 +22,7 @@ const BannerSection = ({
   image,
   greetingStyle,
   nameStyle,
+  buttonStyle,
   designationStyle,
   aboutStyle,
   roleStyle,
@@ -57,6 +60,15 @@ const BannerSection = ({
               {...aboutStyle}
             />
 {/*             <SocialProfile items={Data.portfolioJson.SOCIAL_PROFILES} /> */}
+          <ButtonWrapper>
+            <a href="#contacto">
+              <Button
+                title="Haz tu reserva"
+                className="portfolio_button"
+                {...buttonStyle}
+              />
+            </a>
+          </ButtonWrapper>
           </Box>
           <Box {...imageArea} className="image_area">
             <Image src={PersonImage} alt="Mat Helme" {...image}/>
@@ -73,6 +85,7 @@ BannerSection.propTypes = {
   imageArea: PropTypes.object,
   greetingStyle: PropTypes.object,
   nameStyle: PropTypes.object,
+  buttonStyle: PropTypes.object,
   designationStyle: PropTypes.object,
   aboutStyle: PropTypes.object,
   roleStyle: PropTypes.object,
@@ -116,6 +129,14 @@ BannerSection.defaultProps = {
     fontWeight: '800',
     mb: '6px',
     fontFamily: 'Dancing Script'
+  },
+  buttonStyle: {
+    type: 'button',
+    fontSize: '16px',
+    fontWeight: '500',
+    color: '#fff',
+    pl: '23px',
+    pr: '23px',
   },
   designationStyle: {
     as: 'h3',
