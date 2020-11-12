@@ -60,7 +60,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={Data.portfolioJson.MENU_ITEMS}
               offset={-70}
             />
-            <a className="navbar_button" href="#1">
+            <a className="navbar_button" href="#contacto">
               <Button {...button} title="HABLEMOS" />
             </a>
             <Drawer
@@ -76,7 +76,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <a className="navbar_drawer_button" href="#1">
+              <a className="navbar_drawer_button" href="#contacto">
                 <Button {...button} title="HABLEMOS" />
               </a>
             </Drawer>

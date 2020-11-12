@@ -37,7 +37,7 @@ const BannerSection = ({
   `);
 
   return (
-    <BannerWrapper id="banner_section">
+    <BannerWrapper id="sobre_mi">
       <Container noGutter mobileGutter width="1200px">
         <Box {...row}>
           <Box {...contentArea}>

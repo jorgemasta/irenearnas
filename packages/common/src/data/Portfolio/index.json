@@ -8,18 +8,18 @@
   "MENU_ITEMS": [
     {
       "label": "SOBRE MI",
-      "path": "#banner_section",
+      "path": "#sobre_mi",
       "offset": "0"
     },
     {
       "label": "CURSOS",
-      "path": "#portfolio_section",
+      "path": "#cursos",
       "offset": "0"
     },
     {
       "label": "CÓMO AYUDARTE",
-      "path": "#awards_section",
-      "offset": "0"
+      "path": "#como_ayudarte",
+      "offset": "120"
     }
   ],
   "AWARDS": [

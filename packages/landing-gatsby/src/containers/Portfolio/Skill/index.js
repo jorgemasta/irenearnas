@@ -47,7 +47,7 @@ const SkillSection = ({
   `);
 
   return (
-    <Box {...sectionWrapper} as="section">
+    <Box {...sectionWrapper} as="section" id="como_ayudarte">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
           <Heading {...secTitle} content="Formas en que puedo ayudarte" />

@@ -62,7 +62,7 @@ export const SOCIAL_PROFILES = [
 export const MENU_ITEMS = [
   {
     label: 'ME',
-    path: '#banner_section',
+    path: '#sobre_mi',
     offset: '0',
   },
   {

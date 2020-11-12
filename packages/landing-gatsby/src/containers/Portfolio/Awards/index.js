@@ -67,12 +67,12 @@ const AwardsSection = ({
   };
 
   return (
-    <AwardSectionWrapper id="awards_section">
+    <AwardSectionWrapper id="cursos">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
           <Heading
             {...secTitle}
-            content="Cursos &amp; Certificaciones"
+            content="Cursos y Certificaciones"
           />
           <Text
             {...secDescription}

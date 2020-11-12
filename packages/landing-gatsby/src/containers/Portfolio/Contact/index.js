@@ -22,7 +22,7 @@ const ContactSection = ({
   buttonWrapper,
 }) => {
   return (
-    <Box {...sectionWrapper} as="section">
+    <Box {...sectionWrapper} as="section" id="contacto">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
           <Heading {...secTitle} content="Trabajemos juntos" />
