@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `A react next landing page`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Irene Arnás | Psicóloga Sanitaria`,
+    description: `Psicóloga Sanitaria con 12 años de experiencia en intervención infanto - juvenil y adultos. Sesiones dinámicas y centradas en la persona.`,
+    author: `Jorge Masta`,
   },
   plugins: [
     {
