@@ -50,7 +50,7 @@ const SkillSection = ({
     <Box {...sectionWrapper} as="section" id="como_ayudarte">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Formas en que puedo ayudarte" />
+          <Heading {...secTitle} content="¿Cómo puedo ayudarte?" />
           <Text
             {...secDescription}
             content="Si necesitas consejos, orientaciones o intervención personalizada"
@@ -66,6 +66,7 @@ const SkillSection = ({
                     <Image
                       src={item.icon.publicURL}
                       alt={`skill-icon-${index + 1}`}
+                      style={{ width: 100, height: 100, objectFit: 'contain' }}
                     />
                   </SkillIcon>
                   <SkillAbout>

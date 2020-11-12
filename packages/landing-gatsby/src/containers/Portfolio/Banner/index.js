@@ -50,7 +50,7 @@ const BannerSection = ({
                 style={{ color: '#3444f1' }}
                 size={22}
               />
-              <Heading content="Psicóloga sanitaria" {...roleStyle} />
+              <Heading content="Psicóloga sanitaria - P-01333" {...roleStyle} />
             </Box>
             <Text
               content="Psicóloga Sanitaria con 12 años de experiencia en intervención infanto - juvenil y adultos. Sesiones dinámicas y centradas en la persona."

@@ -393,42 +393,42 @@
     {
       "title": "Estimulación temprana",
       "description": "Cuando el niño es pequeño y detectamos dificultades es conveniente intervenir cuanto antes para favorecer un mejor desarrollo futuro. Manejo estrategias, técnicas, juegos, intervención individual y orientaciones familiares para favorecer los avances.",
-      "icon": "../../assets/image/portfolio/skill-1.svg"
+      "icon": "../../assets/image/portfolio/icons/temprana.png"
     },
     {
       "title": "Formación a Familias y Profesorado",
       "description": "Cursos, módulos o estrategias generales de intervención en sesiones personalizadas según cada caso concreto. Sesiones por videoconferencia o presenciales.",
-      "icon": "../../assets/image/portfolio/skill-2.svg"
+      "icon": "../../assets/image/portfolio/icons/formacion.png"
     },
     {
       "title": "Terapia Cognitivo Conductual",
       "description": "Nuestros pensamientos influyen directamente en nuestras emociones, y estas, en consecuencia, en nuestra conducta posterior. Te invito a conocer formas más adaptativas de pensar para mejorar tu calidad de vida.",
-      "icon": "../../assets/image/portfolio/skill-3.svg"
+      "icon": "../../assets/image/portfolio/icons/brain.png"
     },
     {
       "title": "Trastornos del Neurodesarrollo",
       "description": "Técnicas, estrategias e intervención personalizada en este tipo de trastornos con apoyo y orientaciones a nivel escolar y familiar. Así como elaboración de un programa de intervención individual para cada caso concreto.",
-      "icon": "../../assets/image/portfolio/skill-4.svg"
+      "icon": "../../assets/image/portfolio/icons/autista.png"
     },
     {
       "title": "TDAH y Trastornos Conductuales",
       "description": "Orientaciones acerca de como actuar, mejorar sus capacidades personales y favorecer un contexto más positivo en el que se desarrollen. Terapia de conducta para padres, apoyándolos en el proceso y ayudándolos a conocer técnicas de modificación de conducta efectivas.",
-      "icon": "../../assets/image/portfolio/skill-4.svg"
+      "icon": "../../assets/image/portfolio/icons/kid.png"
     },
     {
       "title": "Miedos y Fobias",
       "description": "Pautas que favorecen el enfrentamiento y aceptación. Reducción de estos y mejora de la calidad de vida de la persona.",
-      "icon": "../../assets/image/portfolio/skill-4.svg"
+      "icon": "../../assets/image/portfolio/icons/miedos.png"
     },
     {
       "title": "Ansiedad y Estrés",
       "description": "El estrés se define actualmente como la enfermedad del siglo XXI. El ritmo frenético de vida que llevamos y acontecimientos que no sabemos enfrentar pasan factura en nuestra vida. Te ofrezco aprender a manejar estos dos conceptos y como consecuencia, sentirte mejor.",
-      "icon": "../../assets/image/portfolio/skill-4.svg"
+      "icon": "../../assets/image/portfolio/icons/estres.png"
     },
     {
       "title": "Autoestima y Problemas Emocionales",
       "description": "Cuando confiamos en nosotros mismos se abren un sinfín de posibilidades en todos los aspectos de nuestra vida, actualmente las nuevas tecnologías y una sociedad en continúo desarrollo que proyecta la perfección está afectando a nuestra imagen, generando insatisfacción y exigencias elevadas a nivel personal. Te enseño a manejarlo así como a gestionar las emociones que lo acompañan.",
-      "icon": "../../assets/image/portfolio/skill-4.svg"
+      "icon": "../../assets/image/portfolio/icons/autoestima.png"
     }
   ],
   "CLIENTS": [
