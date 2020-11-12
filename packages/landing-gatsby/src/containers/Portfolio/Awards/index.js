@@ -35,19 +35,16 @@ const AwardsSection = ({
       portfolioJson {
         AWARDS {
           awardName
-          awardeeName
           awardDetails
-          date
           awardLogo {
-            publicURL
-          }
-          awardeeLogo {
             publicURL
           }
         }
       }
     }
   `);
+
+  console.log({ awardLogoStyle })
 
   //Carousel Options
   const carouselOptions = {
@@ -79,7 +76,7 @@ const AwardsSection = ({
           />
           <Text
             {...secDescription}
-            content="La formación me parece un elemento fundamental para el crecimiento profesional. Con lo cual cada año me gusta continuar aprendiendo y mantiendome al día sobre las últimas noticias, publicaciones y actualiciones en el campo de la psicología. Adaptarse a los nuevos tiempos y formaciones permite adaptarse a los nuevos tiempos permite enriqueserse e técnicas alternativas y nuevas ideas que te hagan crecer como profesional."
+            content="De mente inquieta y en continua formación. Cada año me gusta continuar formándome y manteniéndome al día sobre las últimas noticias, publicaciones y actualizaciones en el campo de la psicología. Adaptarse a los nuevos tiempo y cambios permite enriquecerse de técnicas alternativas y nuevas ideas que te hagan crecer como profesional."
           />
         </Box>
 
@@ -110,7 +107,7 @@ const AwardsSection = ({
                   </AwardImageWrapper>
                   <Heading content={award.awardName} {...awardNameStyle} />
                   <Text content={award.awardDetails} {...awardDetailsStyle} />
-                  <AwardeeWrapper>
+{/*                   <AwardeeWrapper>
                     <AwardeeLogo>
                       <Image
                         src={award.awardeeLogo.publicURL}
@@ -125,7 +122,7 @@ const AwardsSection = ({
                       />
                       <Text content={award.date} {...awardDateStyle} />
                     </AwardeeDetails>
-                  </AwardeeWrapper>
+                  </AwardeeWrapper> */}
                 </AwardItem>
               </GlideSlide>
             ))}
@@ -171,6 +168,8 @@ AwardsSection.defaultProps = {
     ml: 'auto',
     mr: 'auto',
     mb: '25px',
+    height: '100px',
+    width: '100px'
   },
   awardNameStyle: {
     fontSize: ['16px', '16px', '18px', '20px'],

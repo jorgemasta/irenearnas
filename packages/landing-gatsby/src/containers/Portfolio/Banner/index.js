@@ -53,7 +53,7 @@ const BannerSection = ({
               <Heading content="Psicóloga sanitaria" {...roleStyle} />
             </Box>
             <Text
-              content="Psiccóloga sanitaria con 12 años de experiencia en intervención en niños y adultos. Sesiones dinámicas y centradas en la persona."
+              content="Psicóloga Sanitaria con 12 años de experiencia en intervención infanto - juvenil y adultos. Sesiones dinámicas y centradas en la persona."
               {...aboutStyle}
             />
 {/*             <SocialProfile items={Data.portfolioJson.SOCIAL_PROFILES} /> */}

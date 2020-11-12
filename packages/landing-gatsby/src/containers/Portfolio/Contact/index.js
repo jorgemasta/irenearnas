@@ -9,7 +9,7 @@ import Container from 'common/src/components/UI/Container';
 
 import { ButtonWrapper } from '../../Portfolio/portfolio.style';
 import { ActiveStatus } from './contact.style';
-import Author from 'common/src/assets/image/portfolio/avatar.png';
+import Author from 'common/src/assets/image/portfolio/ireneperfil.jpeg';
 
 const ContactSection = ({
   sectionWrapper,
@@ -25,10 +25,10 @@ const ContactSection = ({
     <Box {...sectionWrapper} as="section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Let’s Work Together" />
+          <Heading {...secTitle} content="Trabajemos juntos" />
           <Text
             {...secDescription}
-            content="If you have a website or mobile app idea in mind or you need some advice about product design, feel free to contact me. Currently my time books quickly, so the sooner you write, the better it is for both of us."
+            content="Para escucharte, apoyarte y dotarte de nuevas estrategias que estimulen todo tu potencial, aquí estoy. Así como para resolver cualquier duda que pueda surgir sobre los temas antes expuestos. Actualmente disponemos de muchas facilidades para llevar a cabo las sesiones también de forma online adaptándonos a cada caso particular."
           />
         </Box>
         <Box {...replyWrapper}>
@@ -37,17 +37,19 @@ const ContactSection = ({
           </ActiveStatus>
           <Heading
             as="h4"
-            content="Reply time: within 1-2 working days"
+            content="Tiempo de respuesta: entre 1-2 días laborales"
             {...replyTime}
           />
         </Box>
         <Box {...buttonWrapper}>
           <ButtonWrapper>
+          <a href="mailto:irenearleon@gmail.com">
             <Button
-              title="hello@redq.io"
+              title="irenearleon@gmail.com"
               className="portfolio_button"
               {...buttonStyle}
             />
+          </a>
           </ButtonWrapper>
         </Box>
       </Container>

@@ -24,20 +24,34 @@
   ],
   "AWARDS": [
     {
-      "awardLogo": "../../assets/image/portfolio/award-1.png",
+      "awardLogo": "../../assets/image/portfolio/alfonso.png",
       "awardName": "Certificado aptitud pedagógica (CAP)",
-      "awardDetails": "Universidad Alfonso X El Sabio",
-      "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
-      "awardeeName": "Awardee",
-      "date": "The Jury 2018"
+      "awardDetails": "Universidad Alfonso X El Sabio"
     },
     {
-      "awardLogo": "../../assets/image/portfolio/award-1.png",
-      "awardName": "Convenio de Aptitup P",
-      "awardDetails": "Universidad Alfonso X El Sabio",
-      "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
-      "awardeeName": "Awardee",
-      "date": "The Jury 2018"
+      "awardLogo": "../../assets/image/portfolio/ulpgc.png",
+      "awardName": "Cursos presenciales sobre Autismo para el área de discapacidad",
+      "awardDetails": "Universidad de Las Palmas de GC"
+    },
+    {
+      "awardLogo": "../../assets/image/portfolio/salamanca.png",
+      "awardName": "Cooperación educativa. Tutorización a alumnas de máster",
+      "awardDetails": "Universidad de Salamanca"
+    },
+    {
+      "awardLogo": "../../assets/image/portfolio/femarec.png",
+      "awardName": "Impartición presencial curso autismo",
+      "awardDetails": "FEMAREC"
+    },
+    {
+      "awardLogo": "../../assets/image/portfolio/ftv.png",
+      "awardName": "Impartición presencial curso Comunicación y Lenguaje en TEA",
+      "awardDetails": "Cabildo de Fuerteventura"
+    },
+    {
+      "awardLogo": "../../assets/image/portfolio/ulpgc.png",
+      "awardName": "Impartición, elaboración y coordinación del curso online Estrategias generales y metodología de intervención en TEA",
+      "awardDetails": "Universidad de Las Palmas de GC"
     }
   ],
   "PORTFOLIO_SHOWCASE": [
@@ -378,42 +392,42 @@
   "SKILLS": [
     {
       "title": "Estimulación temprana",
-      "description": "Aristotle maintained the sharp distinction between science and the practical",
+      "description": "Cuando el niño es pequeño y detectamos dificultades es conveniente intervenir cuanto antes para favorecer un mejor desarrollo futuro. Manejo estrategias, técnicas, juegos, intervención individual y orientaciones familiares para favorecer los avances.",
       "icon": "../../assets/image/portfolio/skill-1.svg"
     },
     {
-      "title": "Formación a familias y profesorado",
-      "description": "Aristotle maintained the sharp distinction between science and the practical",
+      "title": "Formación a Familias y Profesorado",
+      "description": "Cursos, módulos o estrategias generales de intervención en sesiones personalizadas según cada caso concreto. Sesiones por videoconferencia o presenciales.",
       "icon": "../../assets/image/portfolio/skill-2.svg"
     },
     {
-      "title": "Terapia cognitivo conductual",
-      "description": "Aristotle maintained the sharp distinction between science and the practical",
+      "title": "Terapia Cognitivo Conductual",
+      "description": "Nuestros pensamientos influyen directamente en nuestras emociones, y estas, en consecuencia, en nuestra conducta posterior. Te invito a conocer formas más adaptativas de pensar para mejorar tu calidad de vida.",
       "icon": "../../assets/image/portfolio/skill-3.svg"
     },
     {
-      "title": "Trastornos del neurodesarrollo",
-      "description": "Aristotle maintained the sharp distinction between science and the practical",
+      "title": "Trastornos del Neurodesarrollo",
+      "description": "Técnicas, estrategias e intervención personalizada en este tipo de trastornos con apoyo y orientaciones a nivel escolar y familiar. Así como elaboración de un programa de intervención individual para cada caso concreto.",
       "icon": "../../assets/image/portfolio/skill-4.svg"
     },
     {
-      "title": "TDAH y trastornos conductuales",
-      "description": "Aristotle maintained the sharp distinction between science and the practical",
+      "title": "TDAH y Trastornos Conductuales",
+      "description": "Orientaciones acerca de como actuar, mejorar sus capacidades personales y favorecer un contexto más positivo en el que se desarrollen. Terapia de conducta para padres, apoyándolos en el proceso y ayudándolos a conocer técnicas de modificación de conducta efectivas.",
       "icon": "../../assets/image/portfolio/skill-4.svg"
     },
     {
-      "title": "Miedos y fobias",
-      "description": "Aristotle maintained the sharp distinction between science and the practical",
+      "title": "Miedos y Fobias",
+      "description": "Pautas que favorecen el enfrentamiento y aceptación. Reducción de estos y mejora de la calidad de vida de la persona.",
       "icon": "../../assets/image/portfolio/skill-4.svg"
     },
     {
-      "title": "Ansiedad y estrés",
-      "description": "Aristotle maintained the sharp distinction between science and the practical",
+      "title": "Ansiedad y Estrés",
+      "description": "El estrés se define actualmente como la enfermedad del siglo XXI. El ritmo frenético de vida que llevamos y acontecimientos que no sabemos enfrentar pasan factura en nuestra vida. Te ofrezco aprender a manejar estos dos conceptos y como consecuencia, sentirte mejor.",
       "icon": "../../assets/image/portfolio/skill-4.svg"
     },
     {
-      "title": "Autoestima y problemas emocionales",
-      "description": "Aristotle maintained the sharp distinction between science and the practical",
+      "title": "Autoestima y Problemas Emocionales",
+      "description": "Cuando confiamos en nosotros mismos se abren un sinfín de posibilidades en todos los aspectos de nuestra vida, actualmente las nuevas tecnologías y una sociedad en continúo desarrollo que proyecta la perfección está afectando a nuestra imagen, generando insatisfacción y exigencias elevadas a nivel personal. Te enseño a manejarlo así como a gestionar las emociones que lo acompañan.",
       "icon": "../../assets/image/portfolio/skill-4.svg"
     }
   ],

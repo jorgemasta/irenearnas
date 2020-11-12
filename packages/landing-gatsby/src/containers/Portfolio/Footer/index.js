@@ -49,77 +49,19 @@ const Footer = ({
   return (
     <FooterWrapper>
       <Container noGutter mobileGutter width="1200px">
-        <Box {...row}>
-          <Box {...col}>
-            <Heading
-              as="h3"
-              content="So, do we work together?"
-              {...titleStyle}
-            />
-            <a href="#1">
-              <Heading as="h3" content="LET'S TALK!" {...linkStyle} />
-            </a>
-          </Box>
-          <Box {...col}>
-            <Heading as="h3" content="A treat for your inbox" {...titleStyle} />
-            <Newsletter>
-              <Input
-                inputType="email"
-                placeholder="Email address"
-                iconPosition="right"
-                isMaterial={false}
-                className="email_input"
-                aria-label="email"
-              />
-              <Button {...newsletterButton} title="Subscribe" />
-            </Newsletter>
-          </Box>
-        </Box>
-
-        <Box {...row}>
-          <Box {...col}>
-            <SocialProfile
-              className="footer_social"
-              items={Data.portfolioJson.SOCIAL_PROFILES}
-              iconSize={40}
-            />
-            <Text
-              as="span"
-              content="© 2018 All rights reserved. "
-              {...copyrightStyle}
-            />
-            <a href="#1">
-              <Text as="span" content=" RedQ, Inc." {...copyrightStyle} />
-            </a>
-          </Box>
-          <Box {...col} {...flexBox}>
-            <Box {...contactItem}>
-              <Text content="Need help?" {...contactTitle} />
-              <Text content="redq.io" {...contactInfo} />
-            </Box>
-            <Box {...contactItem}>
-              <Text content="Feel like talking" {...contactTitle} />
-              <Text content="+12 34 56789" {...contactInfo} />
-            </Box>
-          </Box>
-        </Box>
-
         <Box {...row} {...noMargin}>
           <Box {...col}>
             <Text
               as="span"
-              content="Built & designed with"
+              content="Built with ♥️ by Jorge Masta"
               {...copyrightStyle}
             />
-            <Icon icon={heart} size={14} className="heart_sign" />
           </Box>
           <Box {...col} {...flexBox}>
             <FooterNav>
-              {Data.portfolioJson.FOOTER_MENU.map((item, index) => (
-                <FooterNavItem key={`footer-nav-item-${index}`}>
-                  <a href={item.path || '#1'}>{item.label}</a>
+                <FooterNavItem>
+                  <span>2020</span>
                 </FooterNavItem>
-              ))}
             </FooterNav>
           </Box>
         </Box>

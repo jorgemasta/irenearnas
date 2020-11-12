@@ -82,7 +82,7 @@ export const MENU_ITEMS = [
   },
 ];
 
-export const AWARDS = [
+export const AWARDS = [ // TODO: Remove this
   {
     awardLogo: AwardImage1,
     awardName: 'Free Software Addddvice',
@@ -468,7 +468,7 @@ export const SERVICE_LIST = [
   },
 ];
 
-export const SKILLS = [
+export const SKILLS = [ // TODO: Remove this
   {
     title: 'Estimulación temprana',
     description:

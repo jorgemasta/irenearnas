@@ -53,7 +53,7 @@ const SkillSection = ({
           <Heading {...secTitle} content="Formas en que puedo ayudarte" />
           <Text
             {...secDescription}
-            content="Have a look, some could be interesting to help you achieve your business goals or start that project you always wanted to do... Yes, that one!"
+            content="Si necesitas consejos, orientaciones o intervención personalizada"
           />
         </Box>
 

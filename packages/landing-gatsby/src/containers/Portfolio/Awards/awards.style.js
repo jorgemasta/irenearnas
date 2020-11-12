@@ -42,7 +42,7 @@ export const AwardItem = styled.div`
 
   img {
     max-width: 100%;
-    height: auto;
+    width: auto;
     display: block;
   }
 `;
@@ -56,6 +56,9 @@ export const AwardeeWrapper = styled.div`
 
 export const AwardImageWrapper = styled.div`
   min-height: 97px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
 `;
 
 export const AwardeeLogo = styled.div`
