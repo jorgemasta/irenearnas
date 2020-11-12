@@ -115,6 +115,7 @@ BannerSection.defaultProps = {
     fontSize: ['38px', '38px', '44px', '60px', '80px'],
     fontWeight: '800',
     mb: '6px',
+    fontFamily: 'Dancing Script'
   },
   designationStyle: {
     as: 'h3',

@@ -53,7 +53,7 @@ module.exports = {
       options: {
         google: {
           families: [
-            'Roboto', 'Poppins', 'Lato', 'Opens Sans', 'Raleway', 'Heebo', 'B612', 'DM Sans'
+            'Roboto', 'Poppins', 'Lato', 'Opens Sans', 'Raleway', 'Heebo', 'B612', 'DM Sans', 'Dancing Script'
           ]
         }
 /*         [

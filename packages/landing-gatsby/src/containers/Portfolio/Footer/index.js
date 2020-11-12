@@ -60,7 +60,7 @@ const Footer = ({
           <Box {...col} {...flexBox}>
             <FooterNav>
                 <FooterNavItem>
-                  <span>2020</span>
+                  <span style={{ fontSize: 12}}>Illustrations by <a rel="nofollow" href="undefined" style={{ fontSize: 12}}>Natasha Remarchuk</a> from <a rel="nofollow" href="https://icons8.com/" style={{ fontSize: 12}}>Icons8</a> - 2020</span>
                 </FooterNavItem>
             </FooterNav>
           </Box>
