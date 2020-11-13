@@ -76,7 +76,7 @@ const AwardsSection = ({
           />
           <Text
             {...secDescription}
-            content="De mente inquieta y en continua formación. Cada año me gusta continuar formándome y manteniéndome al día sobre las últimas noticias, publicaciones y actualizaciones en el campo de la psicología. Adaptarse a los nuevos tiempo y cambios permite enriquecerse de técnicas alternativas y nuevas ideas que te hagan crecer como profesional."
+            content="De mente inquieta y en continua formación. Cada año me gusta continuar formándome y manteniéndome al día sobre las últimas noticias, publicaciones y actualizaciones en el campo de la psicología. Adaptarse a los nuevos tiempos y cambios permite enriquecerse de técnicas alternativas y nuevas ideas que te hagan crecer como profesional."
           />
         </Box>
 
