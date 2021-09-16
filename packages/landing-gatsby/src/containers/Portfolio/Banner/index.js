@@ -14,6 +14,7 @@ import { ButtonWrapper } from '../../Portfolio/portfolio.style';
 
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
 import PersonImage from 'common/src/assets/image/portfolio/irene.png';
+import { marginRight } from 'styled-system';
 
 const BannerSection = ({
   row,
@@ -113,7 +114,7 @@ BannerSection.defaultProps = {
     justifyContent: 'flex-end',
   },
   image : {
-    maxHeight: '80%'
+    height: '80vh',
   },
   greetingStyle: {
     as: 'h3',
