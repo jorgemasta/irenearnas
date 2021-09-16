@@ -31,7 +31,7 @@ export default () => {
         <GlobalStyle />
 
         <ContentWrapper>
-          <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
+          <Sticky top={0} innerZ={9999} className="sticky-nav-active">
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
