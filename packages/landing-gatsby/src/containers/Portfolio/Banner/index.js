@@ -79,10 +79,14 @@ const BannerSection = ({
               </>}
               {...quoteStyle}
             />
-            <Text
-              content="- Cita de Laura Chica -"
-              {...authorQuoteStyle}
-            />
+            <p style={{
+                  fontSize: 20,
+                  fontFamily: 'Dancing Script',
+                  fontWeight: 400,
+                  color: '#fff',
+                  fontWeight: 700,
+                  textAlign: 'right'
+            }}>- Cita de Laura Chica -</p>
           </Box>
           <Box {...imageArea} className="image_area">
             <Image src={PersonImage} alt="Irene Arnás" {...image}/>
