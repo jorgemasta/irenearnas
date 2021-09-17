@@ -21,10 +21,10 @@ const BannerSection = ({
   contentArea,
   imageArea,
   image,
-  greetingStyle,
+  authorStyle,
   nameStyle,
   buttonStyle,
-  designationStyle,
+  quoteStyle,
   aboutStyle,
   roleStyle,
   roleWrapper,
@@ -60,19 +60,32 @@ const BannerSection = ({
               content="Psicóloga Sanitaria con 12 años de experiencia en intervención infanto - juvenil y adultos. Sesiones dinámicas y centradas en la persona."
               {...aboutStyle}
             />
-{/*             <SocialProfile items={Data.portfolioJson.SOCIAL_PROFILES} /> */}
-          <ButtonWrapper>
-            <a href="#contacto">
-              <Button
-                title="Haz tu reserva"
-                className="portfolio_button"
-                {...buttonStyle}
-              />
-            </a>
-          </ButtonWrapper>
+            <ButtonWrapper>
+              <a href="#contacto">
+                <Button
+                  title="Haz tu reserva"
+                  className="portfolio_button"
+                  {...buttonStyle}
+                />
+              </a>
+            </ButtonWrapper>
+            <Text
+              content={<>
+                <p style={{ margin: 0}}>Recupera tu poder,</p>
+                <p style={{ margin: 0}}>Sánate a tí mismo,</p>
+                <p style={{ margin: 0}}>Ámate a tí mismo,</p>
+                <p style={{ margin: 0}}>Conócete a tí mismo.</p>
+                <p style={{ margin: 0}}>Porque estos son los senderos hacia tu propia libertad y felicidad.</p>
+              </>}
+              {...quoteStyle}
+            />
+            <Text
+              content="- Cita de Laura Chica -"
+              {...authorStyle}
+            />
           </Box>
           <Box {...imageArea} className="image_area">
-            <Image src={PersonImage} alt="Mat Helme" {...image}/>
+            <Image src={PersonImage} alt="Irene Arnás" {...image}/>
           </Box>
         </Box>
       </Container>
@@ -165,6 +178,23 @@ BannerSection.defaultProps = {
     lineHeight: '1.5',
     mb: '50px',
   },
+  quoteStyle: {
+    fontSize: ['24px', '24px', '24px', '24px', '24px'],
+    fontWeight: '400',
+    color: '#fff',
+    lineHeight: '1.5',
+    mt: '88px',
+    fontFamily: 'Dancing Script',
+    mb: '4px'
+  },
+  authorStyle: {
+    fontSize: ['20px'],
+    fontFamily: 'Dancing Script',
+    fontWeight: '400',
+    color: '#fff',
+    fontWeight: '700',
+    textAlign: 'right'
+  }
 };
 
 export default BannerSection;
