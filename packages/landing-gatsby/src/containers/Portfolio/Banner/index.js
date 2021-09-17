@@ -69,7 +69,7 @@ const BannerSection = ({
                 />
               </a>
             </ButtonWrapper>
-            <Text
+{/*             <Text
               content={<>
                 <p style={{ margin: 0}}>Recupera tu poder,</p>
                 <p style={{ margin: 0}}>Sánate a tí mismo,</p>
@@ -86,7 +86,7 @@ const BannerSection = ({
                   color: '#fff',
                   fontWeight: 700,
                   textAlign: 'right'
-            }}>Cita de Laura Chica</p>
+            }}>Cita de Laura Chica</p> */}
           </Box>
           <Box {...imageArea} className="image_area">
             <Image src={PersonImage} alt="Irene Arnás" {...image}/>
