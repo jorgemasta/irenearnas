@@ -40,20 +40,9 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
     <NavbarWrapper {...navbarStyle} className="portfolio_navbar">
       <Container noGutter mobileGutter width="1200px">
         <Box {...row}>
-          <Logo
-            href="/portfolio"
-            logoSrc={LogoImage}
-            title="Portfolio"
-            logoStyle={logoStyle}
-            className="main-logo"
-          />
-          <Logo
-            href="/portfolio"
-            logoSrc={LogoImageAlt}
-            title="Portfolio"
-            logoStyle={logoStyle}
-            className="logo-alt"
-          />
+          <a className="logo-alt" href="#">
+            Irene Arnás
+          </a>
           <Box {...menuWrapper}>
             <ScrollSpyMenu
               className="main_menu"

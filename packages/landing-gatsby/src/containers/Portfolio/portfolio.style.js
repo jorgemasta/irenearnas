@@ -131,9 +131,6 @@ export const ContentWrapper = styled.div`
       .main-logo {
         display: none;
       }
-      .logo-alt {
-        display: block;
-      }
     }
   }
 
@@ -179,7 +176,11 @@ export const ContentWrapper = styled.div`
       padding: 30px 0;
     }
     .logo-alt {
-      display: none;
+      /* display: none; */
+      font-family: "Dancing Script";
+      font-weight: 800;
+      color: #647f86;
+      font-size: 32px;
     }
     .main_menu {
       margin-right: 40px;
