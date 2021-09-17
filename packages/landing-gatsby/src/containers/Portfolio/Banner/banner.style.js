@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const BannerWrapper = styled.section`
   position: relative;
-  background-color: #8D918D;
+  background-color: #647f86;
   display: flex;
   align-items: center;
   padding-top: 80px;
@@ -12,9 +12,23 @@ const BannerWrapper = styled.section`
     min-height: 100vh;
   }
 
-  .image_area {
+  .wrapper-banner {
     @media (max-width: 767px) {
-      display: none;
+      flex-direction: column-reverse;
+    }
+  }
+
+  .image_area {
+    img {
+      object-fit: cover;
+    }
+    @media (max-width: 767px) {
+      justify-content: center;
+      margin-top: 24px;
+      margin-bottom: -24px;
+      img {
+        height: 50vh;
+      }
     }
   }
 `;

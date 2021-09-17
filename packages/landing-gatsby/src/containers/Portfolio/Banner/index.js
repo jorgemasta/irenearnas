@@ -43,7 +43,7 @@ const BannerSection = ({
   return (
     <BannerWrapper id="sobre_mi">
       <Container noGutter mobileGutter width="1200px">
-        <Box {...row}>
+        <Box {...row} className='wrapper-banner'>
           <Box {...contentArea}>
 {/*             <Heading content="Hola, soy" {...greetingStyle} /> */}
             <Heading content="Irene Arnás" {...nameStyle} />
