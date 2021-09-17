@@ -21,7 +21,7 @@ const BannerSection = ({
   contentArea,
   imageArea,
   image,
-  authorStyle,
+  authorQuoteStyle,
   nameStyle,
   buttonStyle,
   quoteStyle,
@@ -81,7 +81,7 @@ const BannerSection = ({
             />
             <Text
               content="- Cita de Laura Chica -"
-              {...authorStyle}
+              {...authorQuoteStyle}
             />
           </Box>
           <Box {...imageArea} className="image_area">
@@ -187,7 +187,7 @@ BannerSection.defaultProps = {
     fontFamily: 'Dancing Script',
     mb: '4px'
   },
-  authorStyle: {
+  authorQuoteStyle: {
     fontSize: ['20px'],
     fontFamily: 'Dancing Script',
     fontWeight: '400',
